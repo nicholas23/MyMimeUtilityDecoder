@@ -1,0 +1,16 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+
+[compileJava, compileTestJava]*.options.collect {options -> options.encoding = 'UTF-8'} 
+
+repositories{
+	mavenCentral()
+}
+
+dependencies {
+	compile 'com.sun.mail:javax.mail:1.5.0'
+	compile 'com.google.guava:guava:14.0.1'
+	compile 'com.beetstra.jutf7:jutf7:1.0.0'
+	testCompile 'junit:junit:4.11'
+}
