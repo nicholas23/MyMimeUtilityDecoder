@@ -1,1 +1,1 @@
-Sometimes, the MinUtility cannot decode some email subject which have encoded, and will get some error code in return string, so the project give  a sample to fix issus.
+Sometimes, the MinUtility cannot decode some email subject which have encoded, and will get some error code in return string, because encoded string didn't follow RFC 1342 fully, so the project give  a sample to fix issue.
