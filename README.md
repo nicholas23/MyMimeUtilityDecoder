@@ -1,0 +1,1 @@
+Sometimes, the MinUtility cannot decode some email subject which have encoded, and will get some error code in return string, so the project give  a sample to fix issus.
